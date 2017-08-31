@@ -8,6 +8,15 @@
 
 .footer {
   text-align: left;
+  background-color: dimgray;
+}
+
+.header {
+  background-image: url(./resources/images/the-flatiron-building.png);
+}
+
+.designed {
+  background-image: url(./resources/images/the-flatiron-building.png);
 }
 
 h1,
@@ -16,9 +25,14 @@ h1,
       font-weight: bold;
     }
 
+h1,
+  h4,
+    .footer {
+      color: white;
+    }
+
 h1 {
   font-size: 70px;
-  color: white;
 }
 
 h2 {
